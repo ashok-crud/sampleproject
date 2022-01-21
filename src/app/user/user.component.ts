@@ -9,36 +9,36 @@ export class UserComponent implements OnInit,OnChanges ,DoCheck,AfterContentInit
   @Input() user :string= ''
   @Input() name: string='';
   constructor() { 
-    console.log("constructor is called")
+    // console.log("constructor is called")
   }
 
   ngOnInit(): void {
-    console.log("ngoninit called")
+    // console.log("ngoninit called")
   }
   ngOnChanges(element: SimpleChanges): void {
-    console.log("ngOnchanges called")
-    console.log(element)
+    // console.log("ngOnchanges called")
+    // console.log(element)
       
   }
   ngDoCheck(): void {
-      console.log("ngDocheck called")
+      // console.log("ngDocheck called")
   }
   ngAfterContentInit(): void {
-      console.log("ngAfterContentinit")
+      // console.log("ngAfterContentinit")
   }
   ngAfterContentChecked(): void {
-    console.log("ngAfterContentchecked")
+    // console.log("ngAfterContentchecked")
   }
 
   ngAfterViewInit(): void {
-      console.log("ngAfterViewInit called")
+      // console.log("ngAfterViewInit called")
   }
 
   ngAfterViewChecked(): void {
-      console.log("ngAfterviewchecked called")
+      // console.log("ngAfterviewchecked called")
   }
   ngOnDestroy(){
-    console.log("ngondestroy called")
+    // console.log("ngondestroy called")
   }
 
 }
